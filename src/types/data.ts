@@ -369,3 +369,13 @@ export const data = [
     ]
   }
 ]
+
+export interface Users {
+  rank: string;
+  name: string;
+  city: string;
+  age: number;
+  friends: number;
+  xp_level: number;
+  badge: string;
+}
